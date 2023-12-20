@@ -1,0 +1,98 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Fondo blanco */
+    color: #333; /* Color de texto predeterminado */
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    max-width: 200px; /* Ajusta según el tamaño deseado */
+    margin-bottom: 10px;
+}
+
+.welcome {
+    color: #007bff; /* Azul */
+    font-size: 3em; /* Tamaño de la letra ajustado */
+    font-weight: bold;
+}
+
+.content-container {
+    display: flex;
+}
+
+.login-container {
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-text {
+    color: #666; /* Gris */
+    font-size: 2em; /* Tamaño de la letra ajustado */
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666; /* Gris */
+    font-size: 2em; /* Tamaño de la letra ajustado */
+}
+
+input {
+    width: calc(100% - 16px); /* Ajusta según el tamaño deseado */
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff; /* Azul */
+    color: #fff; /* Blanco */
+    padding: 12px 30px; /* Ajusta según el tamaño deseado */
+    border: none;
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+}
+
+.image-container {
+    flex: 1;
+    background-color: #007bff; /* Color azul para la franja */
+    padding: 20px; /* Añadido para espaciado interno */
+    text-align: center; /* Añadido para centrar la imagen */
+}
+
+/* Estilos para la franja azul en la parte inferior */
+.footer {
+    position: relative;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start; /* Ajustado para estar en la parte inferior izquierda */
+    padding: 20px; /* Añadido para espaciado interno */
+    background-color: #007bff; /* Color azul para la franja */
+}
+
+.small-icon {
+    max-width: 20px; /* Ajusta según el tamaño deseado */
+    margin-right: 10px; /* Añadido para espaciado entre íconos */
+}
